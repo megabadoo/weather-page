@@ -1,0 +1,272 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+
+
+body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  height: 670px;
+/*  overflow: hidden;*/
+  
+/*
+  margin-top: 300px;
+  margin-bottom: 100px;
+*/
+  border-style: groove;
+  /*border-width: thick;*/
+  border:none;
+  color: whitesmoke;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  background-image:url(mountain.jpg);
+  background-repeat: repeat-y;
+}
+
+section {
+  width: 700px;
+  margin: 50px auto;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.pic-container {
+  width: 1500px;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block;
+/*  padding: 15px;*/
+  
+}
+
+[class*="col-"] {
+  float:left;
+  padding: 15px;
+  background-color: #8bc39c;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  
+  
+}
+
+input[type="submit"] {
+  background-color:darkslategray;
+  color: whitesmoke;
+  cursor: grabbing;
+  box-shadow: auto;
+  
+  
+}
+
+a {
+  color: whitesmoke;
+}
+
+pre {
+  margin: 50px;
+  color: darkslategray;
+  background-color: aliceblue;
+  opacity: 0.7
+}
+
+[class*="col-"]:hover {
+  float:left;
+  padding: 15px;
+  background-color:darkslategrey;
+}
+
+.jumbotron {
+  opacity: 0.78;
+  height: 150px;
+}
+
+div #col1 {
+  width: 40%;
+  height: auto;
+  float: left;
+}
+
+div #col2 {
+  width: 60%;
+  float: right;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+
+pre {
+  font-family: "Raleway", sans-serif;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  font-size: 30px;
+  float: right;
+}
+
+div #parent pre {
+  font-family: "Raleway", sans-serif;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  font-size: 30px;
+  float: right;
+}
+
+.contact-us-jumbotron {
+  background-color:cornflowerblue;
+  opacity: 0.78;
+  width: 600px;
+  margin-bottom: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.about-megan-jumbotron {
+  background-color:cornflowerblue;
+  opacity: 0.78;
+  width: 600px;
+  margin-bottom: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.current-weather-jumbotron {
+  background-color:cornflowerblue;
+  opacity: 0.78;
+  height: 400px;
+  width: 400px;
+  margin-bottom: auto;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.current-weather-content {
+  padding: 15px;
+  height: inherit;
+  text-align: center;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav {
+  background-color: whitesmoke;
+  margin: 0;
+  
+}
+
+.nav ul {
+  align-content: stretch;
+}
+
+.nav a {
+  color:darkslategrey;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  cursor: grab;
+/*
+  color:darkslategrey;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+*/
+}
+
+.nav li {
+  display: inline;
+}
+
+table {
+  margin-top: 50px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: cornflowerblue;
+  border: none;
+  font-size: 40px;
+  resize: none;
+  opacity: 0.75;
+  width: 700px;
+  height: 500px;
+  
+}
+
+tr {
+  padding: 10px 10px 5px 5px;
+  margin: auto;
+  
+  
+}
+
+td {
+  margin: auto;
+  padding: inherit;
+  text-align: center;
+  
+  
+}
+
+div {
+/*
+  column-count: 3;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+*/
+  margin: 0;
+  
+}
+
+h1 {
+  background-color: cornflowerblue;
+  opacity: 0.80;
+  font-weight: 400;
+  width: 500px;
+  margin-top: -50px;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+h3 {
+  font-weight: 200;
+  padding-left: 30px;
+}
+
+p {
+  color:white;
+  font-weight: 100;
+}
